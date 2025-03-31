@@ -1,0 +1,9 @@
+@mixin botonEnviar{
+    box-shadow: 0px 0px 10px 10px grey;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px 10px 30px 30px;
+    text-decoration: none;
+}

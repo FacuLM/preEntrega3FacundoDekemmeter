@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+
+/* NAVBARRA*/
+.navBarra {
+  padding: 10px;
+  background-color: rgb(35, 2, 46);
+}
+.navBarra div div h1 {
+  margin-bottom: 15px;
+}
+.navBarra div div h1 :hover {
+  box-shadow: 0 0 20px silver;
+  transition: 0.5s;
+  color: black;
+  background-color: azure;
+  border-radius: 20px;
+}
+.navBarra div div h1 a {
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #f5f5dc;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.navBarra div div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navBarra div div ul li :hover {
+  border-radius: 20px;
+  box-shadow: 0 0 20px silver;
+  color: black;
+  background-color: azure;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.navBarra div div ul li a {
+  text-decoration: none;
+  border-radius: 20px;
+  color: #f5f5dc;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.frase {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: black;
+  color: #f5f5dc;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.mainIndex {
+  background-color: rgb(26, 20, 35);
+}
+.mainIndex .imgBanner {
+  width: 100%;
+}
+.mainIndex .imgBanner img {
+  width: 100%;
+}
+.mainIndex h2 {
+  padding-top: 20px;
+  color: black;
+  background-color: silver;
+  text-align: center;
+}
+.mainIndex .divColumnaIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainIndex .divColumnaIndex div {
+  width: 600px;
+  height: 400px;
+}
+.mainIndex .divColumnaIndex div img {
+  border-radius: 5px;
+  width: 100%;
+}
+.mainIndex .divColumnaIndex p {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 20px 0;
+  font-weight: bold solid 50px;
+  text-align: center;
+}
+.mainIndex .divColumnaIndex .pChevrolet {
+  background-color: rgb(236, 154, 41);
+  width: 100%;
+}
+.mainIndex .divColumnaIndex .pPeugeot {
+  background-color: rgb(242, 247, 242);
+  width: 100%;
+}
+.mainIndex .divColumnaIndex .pFiat {
+  background-color: rgb(168, 32, 26);
+  width: 100%;
+}
+.mainIndex .divColumnaIndex .pFord {
+  background-color: rgb(16, 152, 247);
+  width: 100%;
+}
+.mainIndex .finMainIndex {
+  margin: 0 10px;
+  padding: 10px 0;
+  color: rgb(188, 189, 192);
+  text-align: center;
+}
+
+.mainPrivacidad {
+  background-color: rgb(26, 20, 35);
+  color: white;
+}
+.mainPrivacidad div {
+  margin: 30px;
+}
+.mainPrivacidad div h1, .mainPrivacidad div h2 {
+  text-align: center;
+  padding: 10px;
+}
+.mainPrivacidad div p {
+  margin: 5px 10px;
+  padding: 5px 0;
+}
+
+.bodyContactos {
+  background-color: rgb(26, 20, 35);
+}
+.bodyContactos .mainContactos {
+  background-image: url(../img/20-08-t-commerce-1200x600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bodyContactos .mainContactos .contactanos {
+  height: 550px;
+  font-size: 60px;
+  padding-left: 20px;
+  color: white;
+}
+.bodyContactos .sectionContactos .formcontacto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.bodyContactos .sectionContactos .formcontacto div h2 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  width: 75%;
+  gap: 20px;
+  grid-template-areas: "label1 input1" "label2 input2" "label3 input3" "label4 input4";
+  justify-content: center;
+  align-items: center;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div label {
+  grid-area: label1;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div input {
+  grid-area: input1;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div label {
+  grid-area: label2;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div input {
+  grid-area: input2;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div label {
+  grid-area: label3;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div input {
+  grid-area: input3;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div label {
+  grid-area: label4;
+}
+.bodyContactos .sectionContactos .formcontacto .formulario div input {
+  grid-area: input4;
+}
+.bodyContactos .sectionContactos .formcontacto .divDos h2 {
+  margin: 15px 30px;
+}
+.bodyContactos .sectionContactos .formcontacto .divDos div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bodyContactos .sectionContactos .formcontacto .divDos div div p {
+  margin: 15px 30px;
+}
+.bodyContactos .sectionContactos .formcontacto .divTres {
+  width: 60%;
+}
+.bodyContactos .sectionContactos .formcontacto .divTres h2 {
+  margin: 15px 30px;
+}
+.bodyContactos .sectionContactos .formcontacto .divTres .botonEnviar {
+  box-shadow: 0px 0px 10px 10px grey;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px 10px 30px 30px;
+  text-decoration: none;
+}
+.bodyContactos .sectionContactos .formcontacto .divTres .botonEnviar a {
+  color: black;
+  text-decoration: none;
+}
+
+.bodyEnviar .mainEnviar {
+  background-color: rgb(26, 20, 35);
+  height: 500px;
+  display: block;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+.bodyEnviar .mainEnviar .check {
+  color: green;
+  font-size: 120px;
+  width: 20%;
+}
+.bodyEnviar .mainEnviar div {
+  font-size: 20px;
+}
+
+.mainFinanciamiento {
+  background-color: rgb(26, 20, 35);
+}
+.mainFinanciamiento .tituloFin {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  background: silver;
+  padding: 10px 0;
+}
+.mainFinanciamiento .divH2Fin {
+  color: yellow;
+  padding: 20px;
+}
+.mainFinanciamiento .divImgFinanciamiento {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0;
+}
+.mainFinanciamiento .divImgFinanciamiento .col1 {
+  display: grid;
+  grid-template-rows: 1fr 0.1fr;
+  gap: 15px;
+  text-align: center;
+}
+.mainFinanciamiento .divImgFinanciamiento .col1 img {
+  width: 100%;
+  height: 100%;
+}
+.mainFinanciamiento .divImgFinanciamiento .col1 .nombreYfinanciamiento {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 10px;
+  background-color: rgb(24, 48, 89);
+}
+.mainFinanciamiento .parrafoFin {
+  background-color: rgb(26, 20, 35);
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #f5f5dc;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .ctf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .ctf p {
+  font-size: 20px;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .ctf div .numeros {
+  font-size: 90px;
+  margin: 0;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .centro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .centro div p {
+  font-size: 20px;
+}
+.mainFinanciamiento section .divNumerosFinanciamineto .centro div div .numeros {
+  font-size: 30px;
+  margin: 0;
+}
+
+.mainModelos {
+  background-color: rgb(26, 20, 35);
+}
+.mainModelos h1 {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Montserrat", serif;
+}
+.mainModelos .sectionModelos div .cuadroModelos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+.mainModelos .sectionModelos div .cuadroModelos .divImgModelos div {
+  background-color: rgb(6, 24, 38);
+  color: white;
+}
+
+footer {
+  background-color: rgb(35, 2, 46);
+}
+footer div {
+  color: #f5f5dc;
+}
+footer div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+footer div ul li {
+  padding: 0 20px;
+}
+footer div ul li p {
+  font-size: 20px;
+  margin: 0;
+}
+footer div ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f5f5dc;
+}
+
+@media screen and (max-width: 750px) {
+  .navBarra div div h1 {
+    margin: 0;
+  }
+  .navBarra div div ul {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+  }
+  .frase {
+    font-size: 15px;
+  }
+  .mainIndex .h2Index {
+    font-size: 13px;
+    padding: 5px 30px;
+  }
+  .mainIndex .divColumnaIndex div {
+    width: 400px;
+  }
+  .mainIndex .divColumnaIndex p {
+    margin: 0;
+  }
+  .bodyContactos .mainContactos .contactanos {
+    height: 300px;
+    font-size: 30px;
+  }
+  .bodyContactos .sectionContactos .formcontacto {
+    margin: 20px;
+  }
+  .bodyEnviar .mainEnviar {
+    height: 300px;
+  }
+  .bodyEnviar .mainEnviar .check {
+    color: green;
+    font-size: 80px;
+    width: 20%;
+  }
+  .bodyEnviar .mainEnviar div h1 {
+    font-size: 15px;
+  }
+  .bodyEnviar .mainEnviar div p {
+    font-size: 10px;
+  }
+  .mainFinanciamiento .divImgFinanciamiento {
+    display: inline;
+  }
+  .mainFinanciamiento .divImgFinanciamiento .col1 {
+    display: inline;
+  }
+  .mainFinanciamiento .divImgFinanciamiento .col1 .nombreYfinanciamiento {
+    margin: 20px 0;
+  }
+  .mainFinanciamiento .parrafoFin {
+    font-size: 15px;
+  }
+  .mainFinanciamiento section .divNumerosFinanciamineto {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainFinanciamiento section .divNumerosFinanciamineto .ctf div .numeros {
+    font-size: 70px;
+    padding: 20px 0;
+  }
+  .mainFinanciamiento section .divNumerosFinanciamineto .centro div div .numeros {
+    text-align: center;
+    font-size: 25px;
+  }
+  .mainFinanciamiento section .divNumerosFinanciamineto div .tea {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .mainModelos h1 {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .mainModelos .sectionModelos div .cuadroModelos {
+    display: inline;
+  }
+  /* footer */
+  footer {
+    display: inline;
+  }
+  footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(35, 2, 46);
+  }
+}
+
+/*# sourceMappingURL=stilos.css.map */
